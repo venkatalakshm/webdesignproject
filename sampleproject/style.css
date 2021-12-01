@@ -1,0 +1,43 @@
+.cardbody{
+    padding:1%;
+    background-color:white;
+    margin: 5%;
+    font-size: 16px;
+    border-radius: 3%;
+    border:6px solid #ddd;
+    text-align: center;
+    height: 20%;
+{
+.card{
+    display: flex;
+    flex-wrap: wrap ;
+}
+h3{
+    color:black;
+}
+p{
+    color:tomato
+}
+button{
+    color:blue
+}
+img{
+    border-radius:10%;
+}
+s{
+    color:red;
+}
+@media only screen and (min-width:360px) and (max-width:480px){
+    .card{
+        display:flex;
+        flex-direction: column;
+    }
+    .cardbody{
+        width:90%;
+        font-size: 20px;
+        background-color: pink;
+    }
+    button{
+         font-size:30px;
+    }
+}
